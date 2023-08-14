@@ -1,0 +1,298 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+    width: 1200px;
+    margin: auto;
+    
+}
+ li{
+    float: left;
+
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    color: wheat;
+}
+ img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.sidenav{
+    width: 200px;
+    height: 100px;
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    background-color: pink;
+    padding-top: 20px;
+    font-size: medium;
+    font-family: verdana;
+    font: bold;
+}
+.wall img{
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+}
+
+
+
+
+#ty img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.sidenav a:hover{
+    background-color: #f1f1f1;
+}
+.contain{
+    text-align: center;
+    width: 1200px;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.text{
+    width: 1200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+
+
+.tem{
+    width: 1200px;
+    height: 320px;
+    padding: 20px;
+
+    /* border: 1px solid red;  */
+    margin: auto;
+    
+}
+
+.left{
+    width: 395px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: inline-block;
+    
+}
+
+#f1 img{
+    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#f1 h3{
+    text-align: center;
+}
+
+.med{
+    width: 395px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: inline-block;
+    
+}
+#f2 img{
+    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    opacity: 0.9;
+}
+#f2 h3{
+    text-align: center;
+}
+
+
+.right{
+    width: 395px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: inline-block;
+}
+
+#f3 img{
+    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#f3 h3{
+    text-align: center;
+}
+
+.typ{
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+
+    background-color: aqua;
+
+}
+.one{
+    width: 230px;
+    height: 150px;
+    font-family: verdana;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.two{
+    width: 230px;
+    height: 150px;
+    font-family: verdana;
+    display: inline-block;
+    padding: 10px;
+}
+.three{
+    width: 230px;
+    height: 150px;
+    font-family: verdana;
+    display: inline-block;
+    padding: 10px;   
+}
+.four{
+    width: 230px;
+    height: 150px;
+    font-family: verdana;
+    padding: 10px;
+    display: inline-block;
+}
+.five{
+    width: 230px;
+    height: 150px;
+    padding: 10px;
+    font-family: verdana;
+    display: inline-block;
+}
+.ba{
+    width: 1200px;
+    height: 500px;
+    background-image: url('gh.png');
+    padding: 50px;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;  
+    
+ }
+
+.ba p{
+    font-family: Verdana;
+    padding: 10px;
+    margin-left: 50% ;
+    color: white;
+    position: relative;
+    padding-top: 10%;
+}
+.bav{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    /* border: 1px solid red; */
+    top: 2200px;
+    right: 100px;
+    
+  
+}
+.fend{
+    width: 1300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: black;
+
+}
+.fend h3{
+    text-align: center;
+    color: #f1f1f1;
+    padding: 20px;
+    font-family: verdana;
+    
+}
+.fend h5{
+    color: #f1f1f1;
+    text-align: center;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media a{
+    display: flex;
+    background-color: #f1f1f1;
+    height: 45px;
+    width: 55px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15) 6px 6px 10px -1px rgba(255,255,255,0.7);
+    transition: 0.5s;
+ }
+
+#jk a i{
+    color: #777;
+    font-size: 35px;
+}
+#jk a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    -0.5px -0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.2);
+    transform: translateY(2px);
+}
+#jk a:hover i{
+    transform: scale(0.90);
+
+}
+#jk a:hover .whatsapp{
+    color: #4fce5d;
+
+}
+a:hover .instagram{
+    color: #f14843;
+    
+}
+a:hover .twitter{
+    color: #00acee;
+    
+}
+a:hover .youtube{
+    color: #f00;
+    
+}
